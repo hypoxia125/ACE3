@@ -448,7 +448,7 @@ player addEventHandler ["MagazineReloading", {
     GVAR(isReloading) = true;
 }];
 player addEventHandler ["MagazineReloaded", {
-    params ["_unit", "_weapon", "_muzzle", "_magazine"];
+    params ["_unit", "_weapon", "_muzzle", "_newMagazine"];
 
     GVAR(isReloading) = false;
 }];
